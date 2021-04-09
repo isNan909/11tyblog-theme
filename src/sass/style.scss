@@ -1,0 +1,8 @@
+@import 'https://cdn.jsdelivr.net/npm/reseter.css@1.1.0/css/reseter.min.css';
+
+@import 'variables';
+
+.container {
+  max-width: $container-sm;
+  margin: auto;
+}

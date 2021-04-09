@@ -3090,11 +3090,6 @@
   "resolved" "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz"
   "version" "1.0.0"
 
-"reseter.css@^1.1.0":
-  "integrity" "sha512-AllM9UuJqSw0yLc17UB2bu4+wSLvdGd/TCPn3lfKFm/5rplTbjtXrWaSjNp5bcZOL/OEdX9vlRqtFZL5AMT2sw=="
-  "resolved" "https://registry.npmjs.org/reseter.css/-/reseter.css-1.1.0.tgz"
-  "version" "1.1.0"
-
 "resolve-from@^3.0.0":
   "integrity" "sha1-six699nWiBvItuZTM17rywoYh0g="
   "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-3.0.0.tgz"

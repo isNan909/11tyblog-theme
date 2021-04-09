@@ -1,0 +1,13 @@
+{% extends "layouts/homepage.njk" %}} {% block postContent %}
+<section class="expertise">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        {% for items in collections.expertise%}
+        {{ items.data.area }}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock postContent %}

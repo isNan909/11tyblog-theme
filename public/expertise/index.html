@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+    <title>My Expertise</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
@@ -36,19 +36,35 @@
           </div>
         </nav>
         <div class="title">
-          <h4>{{ title }}</h4>
+          <h4>My Expertise</h4>
         </div>
       </div>
     </header>
     <main>
-      {% block content %}
-      {{ content | safe }}
-      {% endblock content %}
+      
+  <section class="homepage">
+    <div class="container mt-3">
+      
+    </div>
+  </section>
 
-      {% block postContent %}{% endblock postContent %}
+
+      
+<section class="expertise">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        
+        this is my area of expertise
+        
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
     <footer class="container">
-        <small>Website by {{ site.author }} - &copy; {{ site.copyrightYear }}</small>
+        <small>Website by Ishan Manandhar - &copy; 2021</small>
     </footer>
   </body>
 </html>

@@ -1,20 +1,21 @@
-{% extends "layouts/homepage.njk" %}} {% block postContent %}
-<section class="blogs">
-  <div class="container">
-    <div class="row">
-      {% for items in collections.blogs%}
-      <div class="col-md-4">
-        <div class="blogs__card">
-          <img src="{{ items.data.banner }}" alt="" />
-          <div>
-            <h5>{{ items.data.title }}</h5>
-            <p>{{ items.data.subheading }}</p>
-            <a class="btn btn-primary" href="{{items.url}}" type="button">Read more</a>
+{% extends "layouts/homepage.njk" %}}
+{% block postContent %}
+  <section class="blogs">
+    <div class="container">
+      <div class="row">
+        {% for items in collections.blogs %}
+          <div class="col-md-4">
+            <div class="blogs__card">
+              <img src="{{ items.data.banner }}" alt=""/>
+              <div>
+                <h5>{{ items.data.title }}</h5>
+                <p>{{ items.data.subheading }}</p>
+                <a class="btn btn-primary" href="{{ items.url }}" type="button">Read more</a>
+              </div>
+            </div>
           </div>
-        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
 {% endblock postContent %}

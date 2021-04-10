@@ -7,6 +7,11 @@ $footer-grey: #f3f3f3;
   padding: 0px;
 }
 
+image,
+img {
+  width: 100%;
+}
+
 .title {
   margin-top: 3rem;
 }
@@ -50,4 +55,10 @@ footer {
   > div {
     padding: 20px;
   }
+}
+
+// work myworks__samples
+
+.myworks__samples .row {
+  padding: 50px 0px;
 }

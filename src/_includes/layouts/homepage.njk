@@ -1,9 +1,25 @@
-{% extends "base.njk" %}}
-
-{% block content %}
-  <section class="homepage">
-    <div class="container mt-3">
-      {{ content | safe }}
+{% extends "base.njk" %}} {% block content %}
+<section class="homepage">
+  <div class="container mt-3">
+    {{ content | safe }}
+  </div>
+</section>
+<section class="myworks">
+  <div class="container">
+    <div class="myworks__samples mt-5">
+      {% for work in works %}
+      <h3 class="fw-bolder">{{ work.subheading }}</h3>
+      <div class="row d-flex align-items-center">
+        <div class="col-md-7">
+          <img src="{{ work.image }}" alt="" />
+        </div>
+        <div class="col-md-5">
+          <h4>{{ work.heading }}</h4>
+          <p>{{ work.heading }}</p>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-  </section>
+  </div>
+</section>
 {% endblock content %}

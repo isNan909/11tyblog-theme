@@ -2,11 +2,15 @@
 <section class="expertise">
   <div class="container">
     <div class="row">
+      {% for items in collections.expertise%}
       <div class="col-md-4">
-        {% for items in collections.expertise%}
-        {{ items.data.area }}
-        {% endfor %}
+        <div class="expertise__card">
+          <img src="{{ items.data.image }}" alt="area of work" />
+          <h5>{{ items.data.area }}</h5>
+          <p>{{ items.data.description }}</p>
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>

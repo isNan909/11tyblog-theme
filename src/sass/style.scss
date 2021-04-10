@@ -16,4 +16,19 @@ footer {
   padding: 20px 0px;
   color: #7c7c7c;
   text-align: center;
+  margin-top: 30px;
+}
+
+// expertise section
+
+.expertise__card {
+  padding: 35px;
+  border: 1px solid #f2f2f2;
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  h5 {
+    margin-top: 20px;
+  }
 }

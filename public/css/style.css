@@ -54,3 +54,8 @@ footer {
 .myworks__samples .row {
   padding: 50px 0px;
 }
+
+form.contact-form {
+  margin-right: 50vw;
+  margin-bottom: 10rem;
+}

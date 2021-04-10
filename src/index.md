@@ -17,8 +17,10 @@ works:
     description: 'Some description of my work goes here.'
 ---
 
-##### Hi, I am Jane.
+##### Hi, I am Ish∆n.
 
 I am a product designer and a Frontend developer. I am glad you have reached here to see my website.
 
-<img src="{{ banner }}" class="img-fluid" alt="area of work" />
+###### My creative journey started at Oslo where I studied for the past years. I’ve been able to work with talented people, especially across the Europe (some cities). Firstly, I joined Sloopy at Norway. Then, I worked with the team of iron-clad in Amsterdam.
+
+<img src="{{ banner }}" class="img-fluid mt-3" alt="area of work" />

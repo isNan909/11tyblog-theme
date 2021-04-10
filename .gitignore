@@ -105,3 +105,6 @@ dist
 
 # Netlify local
 .netlify
+
+#public
+public

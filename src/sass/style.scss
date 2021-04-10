@@ -19,6 +19,10 @@ footer {
   margin-top: 30px;
 }
 
+.blog-container {
+  max-width: 870px;
+  margin: auto;
+}
 // expertise section
 
 .expertise__card {
@@ -30,5 +34,20 @@ footer {
   }
   h5 {
     margin-top: 20px;
+  }
+}
+
+// blog cards
+
+.blogs__card {
+  border: 1px solid #f2f2f2;
+  img {
+    width: 100%;
+  }
+  h5 {
+    margin-top: 20px;
+  }
+  > div {
+    padding: 20px;
   }
 }

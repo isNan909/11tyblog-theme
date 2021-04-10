@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+    <title>My first blog heading.</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
@@ -39,22 +39,31 @@
           </div>
         </nav>
         <div class="title">
-          <h4>{{ title }}</h4>
+          <h4>My first blog heading.</h4>
         </div>
       </div>
     </header>
     <main>
-      {% block content %}
-      {{ content | safe }}
-      {% endblock content %} 
+      
+  <section class="homepage">
+    <div class="container mt-3">
+      <h3>My first blog description is served from a markdown.</h3>
+<img src="/assets/blogs_images/blog_one.jpg" class="img-fluid" alt="blog" />
+<div class="blog-container description mt-3">
+    Additional utilities can be used to adjust the alignment of buttons when horizontal. Here we’ve taken our previous responsive example and added some flex utilities and a margin utility on the button to right align the buttons when they’re no longer stacked.
+</div>
 
-      {% block postContent %}
-      {% endblock postContent %}
+    </div>
+  </section>
+ 
+
+      
+      
 
     </main>
     <footer class="container">
       <small
-        >Website by {{ site.author }} - &copy; {{ site.copyrightYear }}</small
+        >Website by Ishan Manandhar - &copy; 2021</small
       >
     </footer>
   </body>

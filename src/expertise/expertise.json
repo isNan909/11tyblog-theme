@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/homepage.njk",
+  "tags": "expertise"
+}

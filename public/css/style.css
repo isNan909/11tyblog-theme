@@ -16,6 +16,11 @@ footer {
   margin-top: 30px;
 }
 
+.blog-container {
+  max-width: 870px;
+  margin: auto;
+}
+
 .expertise__card {
   padding: 35px;
   border: 1px solid #f2f2f2;
@@ -26,4 +31,17 @@ footer {
 }
 .expertise__card h5 {
   margin-top: 20px;
+}
+
+.blogs__card {
+  border: 1px solid #f2f2f2;
+}
+.blogs__card img {
+  width: 100%;
+}
+.blogs__card h5 {
+  margin-top: 20px;
+}
+.blogs__card > div {
+  padding: 20px;
 }
